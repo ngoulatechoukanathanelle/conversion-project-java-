@@ -1,0 +1,65 @@
+body{
+background-color:antiquewhite;
+}
+
+
+/* Stile per la sezione con id "s1" */
+#s1 {
+    margin-top: 50px; /* Spazio vuoto sopra la sezione */
+    background-color: chocolate; /* Colore di sfondo */
+    width: 95vw; /* Larghezza del 95% della larghezza della viewport */
+    height: 30vh; /* Altezza del 30% dell'altezza della viewport */
+    display: flex; /* Utilizza il layout flessibile */
+    justify-content: space-around; /* Distribuisce uniformemente gli elementi nella sezione */
+}
+
+
+/* Stile per tutte le sezioni */
+section {
+    margin-top: 40px; /* Spazio vuoto sopra ciascuna sezione */
+    background-color: chocolate; /* Colore di sfondo */
+    width: 95vw; /* Larghezza del 95% della larghezza della viewport */
+    height: 20vh; /* Altezza del 20% dell'altezza della viewport */
+    display: flex; /* Utilizza il layout flessibile */
+    justify-content: space-around; /* Distribuisce uniformemente gli elementi all'interno della sezione */
+}
+
+
+/* Stile per l'elemento con id "s2" */
+#s2 {
+    line-height: 20vh; /* Altezza della linea uguale all'altezza della sezione */
+    font-size: 40px; /* Dimensione del carattere */
+}
+
+
+/* Stile per l'intestazione */
+header {
+    text-align: center; /* Allinea il testo al centro */
+}
+
+
+/* Stile per tutti i div */
+div {
+    margin-top: 40px; /* Spazio vuoto sopra ciascun div */
+    background-color: cornsilk; /* Colore di sfondo */
+    width: 5vw; /* Larghezza del 5% della larghezza della viewport */
+    height: 10vh; /* Altezza del 10% dell'altezza della viewport */
+    padding: 30px; /* Spazio di riempimento interno */
+    font-size: 50px; /* Dimensione del carattere */
+    line-height: 10vh; /* Altezza della linea uguale all'altezza del div */
+    text-align: center; /* Allinea il testo al centro */
+}
+
+
+/* Stile per gli input */
+input {
+    margin: 50px; /* Margine esterno */
+}
+
+
+/* Stile per i pulsanti */
+button {
+    margin: 50px; /* Margine esterno */
+    width: 25vw; /* Larghezza del 25% della larghezza della viewport */
+    height: 4vh; /* Altezza del 4% dell'altezza della viewport */
+}
